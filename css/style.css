@@ -1,0 +1,26 @@
+/* =========================================================
+   Archivo: estilos.css
+   Descripción:
+   Estilos visuales del canvas centrado con sombra
+   y esquinas redondeadas.
+   ========================================================= */
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+/* Estilo del canvas */
+#Lienzo {
+    background-color: #271abb; /* Gris claro */
+    border-radius: 20px;      /* Esquinas redondeadas */
+    
+    /* Sombra */
+    box-shadow: 10px 10px 25px rgb(4, 0, 255);
+
+    border: 4px solid #8802f5;
+}
